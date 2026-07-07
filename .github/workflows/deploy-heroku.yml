@@ -17,7 +17,7 @@ jobs:
         php-version: '8.2'
         extensions: mbstring, bcmath, xml, curl, mysqli
 
-    - name: Disable Composer advisory blocking (temporary)
+    - name: Disable Composer advisory blocking (TEMPORARY)
       run: composer config --global policy.advisories.block false
 
     - name: Install Composer dependencies
